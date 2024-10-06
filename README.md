@@ -7,8 +7,6 @@
 *如何使用 How To Use
 ..........................................................................................................................................................................*
 
-cls is     class
-
 crt is     struct
 
 dl  is     while(1)
@@ -71,12 +69,6 @@ df    is   default   :
 p     is   *
 
 gl    is   &
-
-pub   is   public    :
-
-prv   is   private   :
-
-prot  is   protected :
 
 
 by    is   *
