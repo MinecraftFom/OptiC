@@ -1,144 +1,146 @@
 # OptiC
 我优化了（某种意义上）c语言的代码，让他像汇编，减少了输入符号的过程，只需要空格和字母就能搞定。
-                                          
+                                      
 I optimized (not really) c's code to let it looks more like assembly's style. While coding, you don't need to type in symbols, only using spaces and charactors are needed.
 
 
 如何使用 How To Use
 ..........................................................................................................................................................................
 
-cls      class
+cls is     class
 
-crt      struct
+crt is     struct
 
-dl       while(1)
+dl  is     while(1)
 
-let      auto
+let is     auto
 
-gt       typeof
+gt  is     typeof
 
-td       typedef
+td  is     typedef
 
-use      struct
+use is     struct
 
 
-is       ==
+equ   is   ==
 
-isnt     !=
+isnt  is   !=
 
-NULL     0x00
+NULL  is   0x00
 
-syns     :
+syns  is   :
 
-ed       ;
+ed    is   ;
 
+val   is   =
 
-pint     int*
 
-strg     const char*
+pint  is   int*
 
+strg  is   const char*
 
-bs       [
 
-be       ]
+bs    is   [
 
-bss      (
+be    is   ]
 
-bse      )
+bss   is   (
 
-s        {
+bse   is   )
 
-e        }
+s     is   {
 
-c        ,
+e     is   }
 
-cp       .
+c     is   ,
 
-pcp      ->
+cp    is   .
 
-and      &&
+pcp   is   ->
 
-or       ||
+and   is   &&
 
-sw       switch
+or    is   ||
 
-ca       case
+sw    is   switch
 
-df       default   :
+ca    is   case
 
-p        *
+df    is   default   :
 
-gl       &
+p     is   *
 
-pub      public    :
+gl    is   &
 
-prv      private   :
+pub   is   public    :
 
-prot     protected :
+prv   is   private   :
 
+prot  is   protected :
 
-by       *
 
-dv       /
+by    is   *
 
-mn       -
+dv    is   /
 
-pl       +
+mn    is   -
 
-of       :
+pl    is   +
 
-in       ::
+of    is   :
 
+in    is   ::
 
-addr     ++
 
-minr     --
+addr  is   ++
 
+minr  is   --
 
-ae       +=
 
-me       -=
+ae    is   +=
 
-bye      *=
+me    is   -=
 
-de       /=
+bye   is   *=
 
+de    is   /=
 
-ext      extern
 
-em       enum
+ext   is   extern
 
-un       union
+em    is   enum
 
-co       const
+un    is   union
 
-ch       char
+co    is   const
 
-it       int
+ch    is   char
 
-db       double
+it    is   int
 
-fl       float
+db    is   double
 
-inl      inline
+fl    is   float
 
-lg       long
+inl   is   inline
 
-res      restrict
+lg    is   long
 
-sh       short
+res   is   restrict
 
-sd       signed
+sh    is   short
 
-sta      static
+sd    is   signed
 
-v        void
+sta   is   static
 
-vt       volatile
+v     is   void
 
-vret     return ed
+vt    is   volatile
 
-ret      return
+vret  is   return ed
+
+ret   is   return
 
 备注： 不要问作者为什么给变量取这个名字，反正就是我想，没有其他原因，没有其他含义
 *P.S. Don't ask the author why named the global vars like this, that's all I want, no other reasons, no other meanings.
