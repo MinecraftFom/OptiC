@@ -1,7 +1,6 @@
 #ifndef C23LIBSREBUILD_DEFS_H
 #define C23LIBSREBUILD_DEFS_H
 
-#define cls      class
 #define crt      struct
 #define dl       while bss 1 bse
 #define let      auto
@@ -44,9 +43,6 @@
 #define df       default   syns
 #define p        *
 #define gl       &
-#define pub      public    syns
-#define prv      private   syns
-#define prot     protected syns
 
 #define by       *
 #define dv       /
