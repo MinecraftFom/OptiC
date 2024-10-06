@@ -118,7 +118,8 @@
 #define pl       +
 #define of       :
 #define in       ::
-
+#define glf      %%
+  
 #define addr     ++
 #define minr     --
 
