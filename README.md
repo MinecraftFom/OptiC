@@ -158,5 +158,12 @@ usage: example...
  * //now, hello__hhh's value is hello~
  */
 
+gbrv(any) : 
+build: #define gbrv(var) return #var
+usage: example...
+/*C Code
+ * #define a_new_func(name) printf(gbrv(name))
+ */
+
 **备注： 不要问作者为什么给变量取这个名字，反正就是我想，没有其他原因，没有其他含义**
 **P.S. Don't ask the author why named the global vars like this, that's all I want, no other reasons, no other meanings.**
