@@ -1,0 +1,4 @@
+I will add more libs to help c coding and will finally compile them into a dll file.
+This project will forever be free but you will have to write my name in your project if you use it.
+
+Thanks for supporting.
