@@ -91,6 +91,8 @@ of    is   :
 
 in    is   ::
 
+git   is   %%
+
 
 addr  is   ++
 
