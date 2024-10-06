@@ -142,5 +142,21 @@ vret  is   return ed
 
 ret   is   return
 
+t     is   if
+
+el    is   else
+
+eif   is   else if
+
+ap(any, any, any) : 
+build: #define ap(init_var, append_name, value /*value's value can be NULL, 0x00*/)if(value!=NULL){typeof(init_var)init_var##append_name=value}else{typeof(init_var)init_var##append_name=NULL}
+usage: example...
+/*C Code
+ * char hello;
+ * ap(hello, __hhh,"hello~")
+
+ * //now, hello__hhh's value is hello~
+ */
+
 **备注： 不要问作者为什么给变量取这个名字，反正就是我想，没有其他原因，没有其他含义**
 **P.S. Don't ask the author why named the global vars like this, that's all I want, no other reasons, no other meanings.**
