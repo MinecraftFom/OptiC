@@ -149,5 +149,5 @@
 #define el       else
 #define eif      el t
 #define ap bss init_var c append_name c value bse t bss value isnot NULL bse s gt bss init_varbse init_var##append_name=value e el s gt bss init_var bse init_var##append_name=NULL e
-  
+#define gbrv     bss var bse ret #var
 #endif //C23LIBSREBUILD_DEFS_H
